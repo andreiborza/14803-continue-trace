@@ -1,0 +1,14 @@
+{
+  "name": "14803-continue-trace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "npx rimraf node_modules yarn.lock",
+    "start": "node --import ./instrument.mjs index.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "/Users/andrei/sentry/packages/node/sentry-node-8.47.0.tgz"
+  }
+}
